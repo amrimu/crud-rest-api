@@ -1,18 +1,18 @@
 // imports to create a schema/model
-const mongoose = require('mongoose');
-mongoose.Promise = global.Promise; // Tell mongoose to use ES6 promises
+const mongoose = require('mongoose')
+mongoose.Promise = global.Promise // Tell mongoose to use ES6 promises
 
 // create posts schema
 const PostsSchema = new mongoose.Schema({
   title: {
-    type: String
+    type: String,
   },
   author: {
-    type: String
+    type: String,
   },
   desc: {
-    type: String
-  }
-});
+    type: String,
+  },
+})
 
-module.exports = mongoose.model('posts', PostsSchema);
+module.exports = mongoose.model('posts', PostsSchema)

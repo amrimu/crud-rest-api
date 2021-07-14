@@ -8,12 +8,12 @@ const CustomerSchema = new mongoose.Schema({
     type: Number,
     min: 18,
     max: 65,
-    required: true
+    required: true,
   },
   copyrightBy: {
     type: String,
-    default: 'hompimpro'
-  }
+    default: 'hompimpro',
+  },
 })
 
 module.exports = mongoose.model('customers', CustomerSchema)
