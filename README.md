@@ -3,13 +3,13 @@
 1. Install the dependencies
 
    ```sh
-   npm install or yarn
+   npm install
    ```
 
 2. Start the development server
 
    ```sh
-   yarn run start
+   npm run start
    ```
 
 ## 🚀 Building and Running for Production
