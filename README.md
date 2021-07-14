@@ -9,7 +9,7 @@
 2. Start the development server
 
    ```sh
-   npm run start
+   npm start
    ```
 
 ## 🚀 Building and Running for Production
