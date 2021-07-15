@@ -4,8 +4,9 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.json())
 
 // Configuring the database
-const dbConfig = require('./app/config/mongodb.config.js')
 const mongoose = require('mongoose')
+require('dotenv').config({ path: './app/config/.env' })
+// const dbConfig = require('./app/config/mongodb.config.js')
 
 const Customer = require('./app/models/customer.model.js')
 
@@ -13,7 +14,7 @@ mongoose.Promise = global.Promise
 
 // Connecting to the database
 mongoose
-  .connect(dbConfig.url, {
+  .connect(process.env.DATABASE, {
     useNewUrlParser: true,
     useFindAndModify: false,
     useCreateIndex: true,

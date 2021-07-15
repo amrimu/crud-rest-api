@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prod": "node server",
-    "watch": "nodemon server --ignore public/",
+    "prod": "node main",
+    "watch": "nodemon main --ignore public/",
     "start": "npm run watch"
   },
   "keywords": [],
