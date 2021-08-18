@@ -1,21 +1,25 @@
-## 🛠 Installation & Set Up
+## 🛠 Installation
 
-1. Install the dependencies
+```bash
+# Install dependencies for server
+npm install
 
-   ```sh
-   npm install
-   ```
+# Install dependencies for client
+npm run client-install
 
-2. Start the development server
+# Run the client & server with concurrently
+npm run dev
 
-   ```sh
-   npm start
-   ```
+# Run the Express server only
+npm run server
 
-## 🚀 Building and Running for Production
+# Run the React client only
+npm run client
 
-1. Generate a full static production build
+# Server runs on http://localhost:5000 and client on http://localhost:3000
+```
 
-   ```sh
-   npm run build
-   ```
+## 🚀 More
+
+- If you want to run this project locally, you must change the value of **DATABASE** on the app/config/env file, with your own 
+  MongoDB Database.
