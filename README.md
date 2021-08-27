@@ -7,7 +7,7 @@ npm install
 # Run the Express server
 npm start
 
-# Server runs on http://localhost:5000
+# Server runs on http://localhost:3000
 ```
 
 ## 🚀 More
