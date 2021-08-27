@@ -1,21 +1,16 @@
-## 🛠 Installation & Set Up
+## 🛠 Installation
 
-1. Install the dependencies
+```bash
+# Install dependencies for server
+npm install
 
-   ```sh
-   npm install
-   ```
+# Run the Express server
+npm start
 
-2. Start the development server
+# Server runs on http://localhost:5000
+```
 
-   ```sh
-   npm start
-   ```
+## 🚀 More
 
-## 🚀 Building and Running for Production
-
-1. Generate a full static production build
-
-   ```sh
-   npm run build
-   ```
+- If you want to run this project locally, you must change the value of **DATABASE** on the app/config/env file, with your own 
+  MongoDB Database.
