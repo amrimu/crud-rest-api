@@ -3,6 +3,9 @@ const router = express.Router() // to create different routes
 // import the controller function
 const postController = require('../controllers/PostController')
 
+// use
+router.get('/', postController.baseRoute)
+
 // create
 router.post('/posts', postController.createPost)
 
